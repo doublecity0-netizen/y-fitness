@@ -1,0 +1,20 @@
+# Credentials and local configuration
+.env
+.env.*
+.openai/
+credentials/
+*.pem
+*.key
+
+# Exported personal records: never commit these
+records*.json
+*localstorage*.json
+user-data/
+
+# Local tools and packaged exports
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+*.zip
